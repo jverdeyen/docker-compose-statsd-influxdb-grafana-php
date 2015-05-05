@@ -1,0 +1,5 @@
+{
+    "require": {
+        "domnikl/statsd": "~2.1"
+    }
+}
