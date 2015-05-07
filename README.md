@@ -7,7 +7,7 @@ This repository was created to show of the possibilities of `Docker Compose` (fo
 ### Create a Digital Ocean Droplet
 
 Create a new Digital Ocean Droplet and select the following application: `Docker 1.6.0 on 14.04`.
-I've tested it with a $80/mo Droplet as I'm only testing this for a few hours. Add your personal public ssh key for easy root access.
+Add your personal public ssh key for easy root access.
 
 Spin up the Droplet and login with ssh:
 
