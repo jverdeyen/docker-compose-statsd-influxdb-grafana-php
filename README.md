@@ -15,6 +15,12 @@ Spin up the Droplet and login with ssh:
 ssh root@x.x.x.x
 ```
 
+### The shortcut way
+
+```
+cd /tmp && git clone https://github.com/jverdeyen/docker-compose-statsd-influxdb-grafana-php.git && cd docker-compose-statsd-influxdb-grafana-php && chmod +x demo.sh && ./demo.sh
+```
+
 ### Docker and Docker Compose
 
 You can easily check the Docker package is installed with:
