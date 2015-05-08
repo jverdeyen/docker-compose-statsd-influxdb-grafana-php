@@ -124,7 +124,7 @@ The following containers are started and available:
 
 The normal demo flow of this application is the following.
 You can visit the mini PHP application on `http://x.x.x.x` this will output a loading time (simulated by a randomized `usleep`).
-This PHP application will send and UDP package with the timing onto the StatsD instance, listening on `x.x.x.x:8125`.
+This PHP application will send a UDP package with the timing onto the StatsD instance, listening on `x.x.x.x:8125`.
 Every x-seconds the StatsD instance will send this data to the InfluxDB. A database named `grafana` was already created.
 This time based data in the InfluxDB can be retrieved from Grafana to make some fancy graphs.
 
